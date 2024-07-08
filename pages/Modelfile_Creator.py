@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 from modules.shared import shared
 def load_model_data():
-    url = "https://raw.githubusercontent.com/Luxadevi/Ollama-Colab-Integration/main/models.json"
+    url = "https://raw.githubusercontent.com/greatsteins/Ollama-Colab-Integration/main/models.json"
     response = requests.get(url)
     return response.json()
 
